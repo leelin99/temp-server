@@ -1,6 +1,6 @@
 module.exports = {
   apps: [{
-    name: "node-server", // 应用名称
+    name: "mobile", // 应用名称
     script: "./app.js", // 启用的脚本地址
     node_args: ['--inspect'], // 传递给节点可执行文件的参数
     env: { // 我的demo项目中不需要这个，就没有配置
