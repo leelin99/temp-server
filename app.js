@@ -19,5 +19,5 @@ app.use(koaBody({
 }))
 app.use(router.routes())
 app.use(router.allowedMethods())
-app.use(koaStatic(path.join(__dirname, "./static")))
+app.use(koaStatic(path.join(__dirname, "./static"), {maxAge:256456456}))
 app.listen(3002)
